@@ -1,0 +1,38 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.1",
+  "body": [
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Accuracy",
+          "value": "${formatNumber(Accuracy,1)}"
+        },
+        {
+          "title": "CPTDesc",
+          "value": "${CPTDesc}"
+        },
+        {
+          "title": "Comments",
+          "value": "${Comments}"
+        },
+        {
+          "title": "NewCode",
+          "value": "${NewCode}"
+        },
+        {
+          "title": "NewCodeDesc",
+          "value": "${NewCodeDesc}"
+        },
+        {
+          "title": "SameSimCode",
+          "value": "${formatNumber(SameSimCode,2)}"
+        }
+      ],
+      "spacing": "Small",
+      "$data": "${$root}"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "color": "Accent",
+      "text": "Rate your experience!"
+    },
+    {
+      "type": "TextBlock",
+      "separator": true,
+      "text": "Please rate your experience! Your feedback is very appreciated and will help improve your experience in the future. ",
+      "wrap": true
+    },
+    {
+      "type": "ColumnSet",
+      "spacing": "Medium",
+      "columns": [
+        {
+          "type": "Column",
+          "selectAction": {
+            "type": "Action.Submit",
+            "data": {
+              "msteams": {
+                "type": "imBack",
+                "value": "Awful"
+              }
+            }
+
+          },
+          "items": [
+            {
+              "type": "Image",
+              "horizontalAlignment": "Center",
+              "url": "https://icons-for-free.com/iconfiles/png/512/mark+opinion+rating+star+icon-1320191205647153700.png",
+              "size": "small"
+            },
+            {
+              "type": "TextBlock",
+              "horizontalAlignment": "Center",
+              "text": "Awful"
+            }
+          ],
+          "width": "stretch"
+        },
+        {
+          "type": "Column",
+          "selectAction": {
+            "type": "Action.Submit",
+            "data": {
+              "msteams": {
+                "type": "imBack",
+                "value": "Bad"
+              }
+            }
+          },
+          "items": [
+            {
+              "type": "Image",
+              "horizontalAlignment": "Center",
+              "url": "https://icons-for-free.com/iconfiles/png/512/mark+opinion+rating+star+icon-1320191205647153700.png",
+              "size": "small"
+            },
+            {
+              "type": "TextBlock",
+              "horizontalAlignment": "Center",
+              "text": "Bad"
+            }
+          ],
+          "width": "stretch"
+        },
+        {
+          "type": "Column",
+          "selectAction": {
+            "type": "Action.Submit",
+            "data": {
+              "msteams": {
+                "type": "imBack",
+                "value": "Ok"
+              }
+            }
+          },
+          "items": [
+            {
+              "type": "Image",
+              "horizontalAlignment": "Center",
+              "url": "https://icons-for-free.com/iconfiles/png/512/mark+opinion+rating+star+icon-1320191205647153700.png",
+              "size": "small"
+            },
+            {
+              "type": "TextBlock",
+              "horizontalAlignment": "Center",
+              "text": "Ok"
+            }
+          ],
+          "width": "stretch"
+        },
+        {
+          "type": "Column",
+          "selectAction": {
+            "type": "Action.Submit",
+            "data": {
+              "msteams": {
+                "type": "imBack",
+                "value": "Good"
+              }
+            }
+          },
+          "items": [
+            {
+              "type": "Image",
+              "horizontalAlignment": "Center",
+              "url": "https://icons-for-free.com/iconfiles/png/512/mark+opinion+rating+star+icon-1320191205647153700.png",
+              "size": "small"
+            },
+            {
+              "type": "TextBlock",
+              "horizontalAlignment": "Center",
+              "text": "Good"
+            }
+          ],
+          "width": "stretch"
+        },
+        {
+          "type": "Column",
+          "selectAction": {
+            "type": "Action.Submit",
+            "data": {
+              "msteams": {
+                "type": "imBack",
+                "value": "Awesome"
+              }
+            }
+          },
+          "items": [
+            {
+              "type": "Image",
+              "horizontalAlignment": "Center",
+              "url": "https://icons-for-free.com/iconfiles/png/512/mark+opinion+rating+star+icon-1320191205647153700.png",
+              "size": "small"
+            },
+            {
+              "type": "TextBlock",
+              "horizontalAlignment": "Center",
+              "text": "Awesome"
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    }
+  ],  
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}
