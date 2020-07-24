@@ -110,7 +110,7 @@ namespace Microsoft.BotBuilderSamples.Dialogs
                     string strMsg = string.Empty;
                     var entitiDetails = (EntitiDetails)stepContext.Options;                    
                     if (entitiDetails == null || entitiDetails.Returnmsg == "returnQuit")
-                        strMsg = "Hi " + strUser + ". Please Type any action below";
+                        strMsg = "Hi " + strUser + ". Please Type any usecase below";
                     else if (entitiDetails.Returnmsg == "return")
                         strMsg = "What more you want to know? Please select option";
                     return await stepContext.PromptAsync(nameof(OptionPrompt), new PromptOptions
